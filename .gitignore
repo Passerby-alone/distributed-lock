@@ -1,5 +1,5 @@
 /bin
-.*
+.idea
 !.gitignore
 /build
 /logs
