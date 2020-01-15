@@ -1,0 +1,13 @@
+/bin
+.*
+!.gitignore
+/build
+/logs
+logs/
+*.log
+*.tmp
+*.class
+web/htmls
+/target/
+/cache
+*.stackdump
