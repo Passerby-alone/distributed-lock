@@ -2,7 +2,7 @@ server:
   port: 9001
 
 zookeeper:
-  address: 192.168.199.215:2181
+  address: 127.0.0.1:2181
   lock:
     node:
       path: /lock
