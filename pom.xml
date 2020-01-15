@@ -21,7 +21,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
-    <zookeeper.version>3.4.13</zookeeper.version>
+    <zookeeper.version>3.4.14</zookeeper.version>
     <zkclient.version>0.1</zkclient.version>
     <lombok.version>1.16.10</lombok.version>
     <swagger.version>2.9.2</swagger.version>
