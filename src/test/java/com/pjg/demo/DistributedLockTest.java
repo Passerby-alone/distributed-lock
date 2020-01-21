@@ -1,6 +1,6 @@
 package com.pjg.demo;
 
-import com.pjg.demo.core.ZookeeperDistributedLock;
+import com.pjg.demo.core.ZookeeperLock;
 import org.I0Itec.zkclient.ZkClient;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -26,7 +26,7 @@ public class DistributedLockTest {
     public void testGetDistributedLock() {
 
         ZkClient client = new ZkClient(address);
-        ZookeeperDistributedLock zookeeperDistributedLock = new ZookeeperDistributedLock(client);
+        ZookeeperLock zookeeperDistributedLock = new ZookeeperLock(client);
         zookeeperDistributedLock.setZkClient(client);
 
         zookeeperDistributedLock.getLock(lockPath);

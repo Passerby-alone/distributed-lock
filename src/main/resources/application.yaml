@@ -6,3 +6,20 @@ zookeeper:
   lock:
     node:
       path: /lock
+
+spring:
+  redis:
+    database: 1
+    host: 127.0.0.1
+    port: 6379
+
+redis:
+  max:
+    total: 20
+    idle: 20
+  min:
+    idle: 10
+  server:
+    timeout: 10000
+  lock:
+    timeout: 5000

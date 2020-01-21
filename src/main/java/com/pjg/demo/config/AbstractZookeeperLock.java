@@ -1,16 +1,16 @@
 package com.pjg.demo.config;
 
-import com.pjg.demo.lock.BaseLock;
+import com.pjg.demo.lock.ZookeeperBaseLock;
 import lombok.extern.slf4j.Slf4j;
 import org.I0Itec.zkclient.ZkClient;
 
 /**
- * @author pengjinguo
+ * @author stranger_alone
  * @description 基于zookeeper实现的分布式锁
  * @date 2020/1/12 上午11:37
  */
 @Slf4j
-public abstract class AbstractZookeeperLock implements BaseLock {
+public abstract class AbstractZookeeperLock implements ZookeeperBaseLock {
 
     private ZkClient zkClient;
 

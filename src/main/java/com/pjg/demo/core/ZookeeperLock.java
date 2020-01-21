@@ -10,16 +10,16 @@ import org.springframework.stereotype.Service;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * @author pengjinguo
+ * @author stranger_alone
  * @description TODO
  * @date 2020/1/12 上午11:58
  */
 @Slf4j
 @Service
-public class ZookeeperDistributedLock extends AbstractZookeeperLock {
+public class ZookeeperLock extends AbstractZookeeperLock {
 
     @Autowired
-    public ZookeeperDistributedLock(ZkClient zkClient) {
+    public ZookeeperLock(ZkClient zkClient) {
         setZkClient(zkClient);
     }
 

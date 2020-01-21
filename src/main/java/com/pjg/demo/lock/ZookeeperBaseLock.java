@@ -1,11 +1,11 @@
 package com.pjg.demo.lock;
 
 /**
- * @author pengjinguo
+ * @author stranger_alone
  * @description
  * @date 2020/1/12 上午11:33
  */
-public interface BaseLock {
+public interface ZookeeperBaseLock {
 
     /**
     * @description 获取锁, 利用zookeeper创建临时节点，来获取锁
